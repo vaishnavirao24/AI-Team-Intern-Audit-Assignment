@@ -1,30 +1,66 @@
-# Tokenizer and serving audit
+# AI Team Intern Audit Assignment
 
-This repository is a reproducible submission for the AI Team Intern Assignment.
+## TECHNICAL DEFENSE DEMO
 
-## Reproduce
+# [CLICK HERE TO WATCH THE FULL TECHNICAL DEFENSE VIDEO](https://drive.google.com/file/d/1ulKlujhG4ZeTWwb8K9ysIy315UuHBjlG/view?usp=sharing)
 
-Use Python 3.11+ from the repository root:
+The recorded technical defense demonstrates:
 
-```bash
-python -m venv .venv
-source .venv/bin/activate              # Windows: .venv\Scripts\activate
-python -m pip install -r requirements.txt
-python partA/audit.py --all
-python partB/analyse_capacity.py
-```
+- repository walkthrough
+- reproducibility of Part A and Part B
+- re-derivation of important numerical results
+- representative new-input handling
+- live command-line flag modification
+- KV-cache counterfactual analysis
+- explanation of the Part C recommendation
+- AI-usage disclosure and evidence verification
 
-The first Part A run downloads tokenizer assets for `google/mt5-small`. Results are written to `partA/results/`. All headline claims in the written answers are produced by these commands.
+---
 
-## Contents
+## Overview
 
-- `NOTEBOOK.md`: chronological hypothesis-experiment-result-revision log
-- `AI_USAGE.md`: honest AI-use disclosure
-- `partA/`: FLORES corpus, corrected analyser, audit experiments, results and memo
-- `partB/`: source benchmark files, arithmetic script and answers
-- `partC/memo.md`: decision memo
+This repository contains the submission for the AI Team Intern Assignment.
 
-## Important defense note
+The work is divided into three main parts:
 
-Do not submit this unchanged. Run every command on your own machine, compare the generated CSVs with the committed results, and edit `AI_USAGE.md` and `NOTEBOOK.md` so they truthfully describe your own work.
+- **Part A:** Tokenizer audit and corrected multilingual analysis
+- **Part B:** Serving-capacity and KV-cache reconciliation
+- **Part C:** Decision memo for multilingual conversational-style improvement
 
+The submission also includes:
+
+- `NOTEBOOK.md` — chronological work and reproduction log
+- `AI_USAGE.md` — AI assistance disclosure
+- `DEFENSE_GUIDE.md` — technical-defense preparation
+- `requirements.txt` — Python dependencies
+
+---
+
+## Repository Structure
+
+```text
+AI-Team-Intern-Audit-Assignment/
+│
+├── partA/
+│   ├── corpus/
+│   ├── results/
+│   ├── answers.md
+│   ├── audit.py
+│   ├── fertility_v0.py
+│   └── recommendation_memo.md
+│
+├── partB/
+│   ├── analyse_capacity.py
+│   ├── answers.md
+│   ├── bench_log.csv
+│   └── model_spec.md
+│
+├── partC/
+│   └── memo.md
+│
+├── AI_USAGE.md
+├── DEFENSE_GUIDE.md
+├── NOTEBOOK.md
+├── README.md
+├── requirements.txt
+└── .gitignore
