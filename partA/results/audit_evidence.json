@@ -1,0 +1,257 @@
+{
+  "corpus_lines": {
+    "eng": 1012,
+    "hin": 1012,
+    "kan": 1012,
+    "tam": 1012,
+    "tel": 1012
+  },
+  "experiments": {
+    "macro_vs_micro": [
+      {
+        "tokenizer": "gpt2",
+        "language": "eng",
+        "v0_macro_tok_per_word": 1.2873650861783383,
+        "micro_tok_per_word": 1.2348294598420164,
+        "relative_change_pct": -4.080864620329172
+      },
+      {
+        "tokenizer": "gpt2",
+        "language": "hin",
+        "v0_macro_tok_per_word": 7.865102262246347,
+        "micro_tok_per_word": 7.826853332293413,
+        "relative_change_pct": -0.48631192167117865
+      },
+      {
+        "tokenizer": "gpt2",
+        "language": "kan",
+        "v0_macro_tok_per_word": 22.569814271755323,
+        "micro_tok_per_word": 22.82391304347826,
+        "relative_change_pct": 1.1258345711817608
+      },
+      {
+        "tokenizer": "gpt2",
+        "language": "tam",
+        "v0_macro_tok_per_word": 25.127005324448138,
+        "micro_tok_per_word": 25.047451564828613,
+        "relative_change_pct": -0.3166066094717701
+      },
+      {
+        "tokenizer": "gpt2",
+        "language": "tel",
+        "v0_macro_tok_per_word": 20.56561213365394,
+        "micro_tok_per_word": 20.709765025386705,
+        "relative_change_pct": 0.7009414103306577
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "eng",
+        "v0_macro_tok_per_word": 1.577120574630735,
+        "micro_tok_per_word": 1.5428975845851787,
+        "relative_change_pct": -2.1699666211994817
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "hin",
+        "v0_macro_tok_per_word": 2.0985656153535537,
+        "micro_tok_per_word": 2.08614436688375,
+        "relative_change_pct": -0.5918923086763228
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "kan",
+        "v0_macro_tok_per_word": 2.97291975681815,
+        "micro_tok_per_word": 3.005776397515528,
+        "relative_change_pct": 1.1051976973823097
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "tam",
+        "v0_macro_tok_per_word": 2.544701905010279,
+        "micro_tok_per_word": 2.540923994038748,
+        "relative_change_pct": -0.14846182824371779
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "tel",
+        "v0_macro_tok_per_word": 2.8018042998746138,
+        "micro_tok_per_word": 2.8125516589916164,
+        "relative_change_pct": 0.3835870734256286
+      }
+    ],
+    "lowercasing": [
+      {
+        "tokenizer": "gpt2",
+        "language": "eng",
+        "original_tokens": 27044,
+        "lowercase_tokens": 27994,
+        "change_pct": 3.5127939653897267
+      },
+      {
+        "tokenizer": "gpt2",
+        "language": "hin",
+        "original_tokens": 200704,
+        "lowercase_tokens": 200712,
+        "change_pct": 0.003985969387754196
+      },
+      {
+        "tokenizer": "gpt2",
+        "language": "kan",
+        "original_tokens": 367465,
+        "lowercase_tokens": 367487,
+        "change_pct": 0.0059869647449417585
+      },
+      {
+        "tokenizer": "gpt2",
+        "language": "tam",
+        "original_tokens": 420171,
+        "lowercase_tokens": 420194,
+        "change_pct": 0.005473961791757631
+      },
+      {
+        "tokenizer": "gpt2",
+        "language": "tel",
+        "original_tokens": 350782,
+        "lowercase_tokens": 350882,
+        "change_pct": 0.02850773414826424
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "eng",
+        "original_tokens": 33791,
+        "lowercase_tokens": 34316,
+        "change_pct": 1.5536681364860527
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "hin",
+        "original_tokens": 53495,
+        "lowercase_tokens": 53512,
+        "change_pct": 0.03177867090382591
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "kan",
+        "original_tokens": 48393,
+        "lowercase_tokens": 48437,
+        "change_pct": 0.09092224081994615
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "tam",
+        "original_tokens": 42624,
+        "lowercase_tokens": 42648,
+        "change_pct": 0.05630630630630851
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "tel",
+        "original_tokens": 47639,
+        "lowercase_tokens": 47719,
+        "change_pct": 0.1679296374818895
+      }
+    ],
+    "nfc": [
+      {
+        "tokenizer": "gpt2",
+        "language": "eng",
+        "lines_changed": 0,
+        "raw_tokens": 27044,
+        "nfc_tokens": 27044
+      },
+      {
+        "tokenizer": "gpt2",
+        "language": "hin",
+        "lines_changed": 93,
+        "raw_tokens": 200483,
+        "nfc_tokens": 200704
+      },
+      {
+        "tokenizer": "gpt2",
+        "language": "kan",
+        "lines_changed": 7,
+        "raw_tokens": 367504,
+        "nfc_tokens": 367465
+      },
+      {
+        "tokenizer": "gpt2",
+        "language": "tam",
+        "lines_changed": 2,
+        "raw_tokens": 420177,
+        "nfc_tokens": 420171
+      },
+      {
+        "tokenizer": "gpt2",
+        "language": "tel",
+        "lines_changed": 1,
+        "raw_tokens": 350797,
+        "nfc_tokens": 350782
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "eng",
+        "lines_changed": 0,
+        "raw_tokens": 33791,
+        "nfc_tokens": 33791
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "hin",
+        "lines_changed": 93,
+        "raw_tokens": 53495,
+        "nfc_tokens": 53495
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "kan",
+        "lines_changed": 7,
+        "raw_tokens": 48393,
+        "nfc_tokens": 48393
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "tam",
+        "lines_changed": 2,
+        "raw_tokens": 42624,
+        "nfc_tokens": 42624
+      },
+      {
+        "tokenizer": "mt5-small",
+        "language": "tel",
+        "lines_changed": 1,
+        "raw_tokens": 47639,
+        "nfc_tokens": 47639
+      }
+    ],
+    "split_space_bug": [
+      {
+        "tokenizer": "gpt2",
+        "one_space_v0": 1.0,
+        "two_spaces_v0": 1.0,
+        "one_space_correct": 1.0,
+        "two_spaces_correct": 1.5
+      },
+      {
+        "tokenizer": "mt5-small",
+        "one_space_v0": 1.0,
+        "two_spaces_v0": 0.6666666666666666,
+        "one_space_correct": 1.0,
+        "two_spaces_correct": 1.0
+      }
+    ],
+    "unused_random_seed": [
+      {
+        "seed": 1,
+        "gpt2_eng_v0": 1.2873650861783383
+      },
+      {
+        "seed": 1337,
+        "gpt2_eng_v0": 1.2873650861783383
+      },
+      {
+        "seed": 999999,
+        "gpt2_eng_v0": 1.2873650861783383
+      }
+    ]
+  }
+}
